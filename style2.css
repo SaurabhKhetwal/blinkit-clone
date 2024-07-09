@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: "helvetica";
+    border: boder-box;
+}
+
+.navbar{
+    background-color: white;
+    height: 95px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.logo{
+    background-image: url(blinkit\ logo.PNG);
+    background-size: cover;
+    height: 50px;
+    width: 149px; 
+    
+}
+
+/**nav box 2**/
+.nav-location{
+    
+   
+}
+.add-first{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: -15px;
+}
+.add-second{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    border: none;
+    
+}
+/**nav box 3**/
+
+.search-box{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+    border: none;
+    box-shadow: none;
+    
+}
+
+.search-icon{
+    height: 47px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.input-search{
+    width: 388px;
+    height: 46;
+    border-radius: 0px 12px 12px 0px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+
+}
+
+/**nav box 4**/
+
+.login{
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+/** nav box 5 **/
+
+.mycart{
+    display: flex;
+    background-color: rgb(12, 131, 31);
+    padding: 11px;
+    border-radius: 8px;
+}
+.fa-cart-shopping{
+    font-size: 26px;
+    margin-right: 7px;
+    color: white;
+       
+}
+.mycart{
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+   
+}   
+
+
+/* main-banner */
+
+.main-banner{
+    background-image: url(banner-image.webp);
+    background-size: cover;
+    height: 234.854px;
+    width: 1280px;
+}
+/* third-section */
+
+.images{
+    display: flex;
+    margin: px;
+    display: flex;
+    flex-direction: row;
+
+}
+.image-1{
+    background-image: url(image_2.webp);
+    background-size: cover;
+    height: 195px;
+    width: 335.4px;
+    border-radius: 16px;
+    margin: 0px 10px 0px 10px;
+}
+.image-2{
+    background-image: url(image_3.webp);
+    background-size: cover;
+    height: 195px;
+    width: 335.4px;
+    border-radius: 16px;
+    margin: 0px 10px 0px 10px;
+    
+}
+.image-3{
+    background-image: url(image_4.webp);
+    background-size: cover;
+    height: 195px;
+    width: 335.4px;
+    border-radius: 16px;
+    margin: 0px 10px 0px 10px;
+}
+.image-4{
+    background-image: url(image_5.webp);
+    background-size: cover;
+    height: 195px;
+    width: 335.4px;
+    border-radius: 16px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* product-tittle */
+
+.product-tittle{
+    padding: 30px 0px 20px 7px;
+    
+    
+}
+
+/* product box */
+.product-panel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.product-content{
+border: 0.5px solid rgb(232, 232, 232);
+box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+border-radius: 8px;
+padding: 12px;
+
+}
+.box-image-one{
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+.product-name{
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.product-weight{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.button{
+   
+    
+}
+.price{
+    display: inline;
+    vertical-align: middle;    
+}
+.add{
+    margin-left: 30px;
+    border: 1px solid rgb(49, 134, 22);
+    color: rgb(49, 134, 22);
+    font-weight: 600;
+    background-color: rgb(247, 255, 249);
+    width: 66px;
+    height: 31px;
+    border-radius: 0.375rem;
+    margin-top: -40px;
+        
+}
+
+/* product-tittle-2 */
+
+.product-tittle-2{
+    padding: 30px 0px 20px 7px;
+}
+
+/* footer */
+
+.footer-panel-first{
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.footer-panel-second{
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    ul{
+        margin-top: 20px;
+    }
+    
+    ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color: #585656;
+    }
+    .footer-panel-third{
+        text-align: center;
+        margin-top: -50px ;
+        color: #585656;
+    }
